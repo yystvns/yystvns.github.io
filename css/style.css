@@ -1,0 +1,136 @@
+/* GLOBAL STYLES
+----------*/
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background: url(../images/klunker-kranich-sky.jpg) no-repeat fixed 50%;
+	background-size: cover;
+}
+
+h1, h2, h3 {
+	font-height: 400;
+}
+
+.wrapper {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+}
+a {
+	color: #fefefe; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c0392b;
+}
+
+/* SUBPAGE MENU
+----------*/
+header ul {
+    font-size: 24px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-right: 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: #7f8c8d;
+}
+
+/* HEADER
+----------*/
+header { 
+	text-align: left;
+	padding: 70px ;
+	font-family: "Josefin Sans", sans-serif;
+	text-transform: none;
+	margin: 0;
+}  
+header h1 {
+	font-size: 90px;
+	margin: 0;
+}
+header a {
+	color: #000;
+}
+header h2 {
+	font-size: 30px;
+	margin: 0;
+	color: #111;
+	padding: 10px 0px 10px 0px;
+}
+
+.download {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: (0, 0, 0, 0.4);
+	color: black;
+	padding: 20px
+	text-decoration: none;
+}
+/* ABOUT ME 
+----------------------*/
+.profile { 
+	background: rgba(0, 0, 0, 0.4);
+	color: #fefefe;
+	overflow: hidden;
+}  
+.profile img {
+	border-radius: 60%;
+	float: left;
+	margin-right: 3%;
+	width: 20%;
+	padding: 30px 30px 30px 30px;
+}	
+.summary {
+	width: 67%
+	float: right;
+}
+
+/* WORK EXPERIENCE 
+----------------------*/
+
+.work { 
+	background: rgba(26,188,156, 0.2);
+	overflow: hidden;
+}  
+
+/* SKILLS 
+----------------------*/
+.skills { 
+	background: rgba(236, 240, 241, 0.2);
+	overflow: hidden;
+}  
+
+/* EDUCATION
+-------------*/
+.education { 
+	background: rgba(127, 140, 141, 0.2);
+	overflow: hidden;
+}  
+
+/* CONTACT & FOOTER 
+--------------------*/
+.contact { 
+	background: rgba(0, 0, 0, 0.4);
+	background-color: #fefefe;
+	overflow: hidden;
+}
